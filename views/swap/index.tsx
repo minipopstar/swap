@@ -7,10 +7,6 @@ import AddTokenToWallet from './components/AddTokenToWallet'
 import { useActiveChainId } from 'src/hooks/useActiveChainId'
 import { useAccount } from 'wagmi'
 
-import { useActiveChainId } from 'src/hooks/useActiveChainId'
-import { useAccount } from 'wagmi'
-import SwapContainer from './components/SwapContainer'
-import AddTokenToWallet from './components/AddTokenToWallet'
 
 const useStyles = makeStyles(() => ({
     swapView: {
