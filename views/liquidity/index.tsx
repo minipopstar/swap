@@ -22,15 +22,6 @@ const useStyles = makeStyles((theme) => ({
     }
 }))
 
-const useStyles = makeStyles((theme) => ({
-    liquidityView: {
-        width: '100vw',
-        display: 'flex',
-        justifyContent: 'center'
-    }
-}))
-
-
 function Liquidity() {
 
     const classes = useStyles()
